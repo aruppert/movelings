@@ -1,7 +1,14 @@
 import React from "react";
+import GlobalStyles from "./GlobalStyles";
 
 function App() {
-  return <div>Movelings</div>;
+  return (
+    <>
+      <GlobalStyles />
+      <header>LOGO, Search, IConButton</header>
+      <main>Movie-Cards</main>
+    </>
+  );
 }
 
 export default App;
