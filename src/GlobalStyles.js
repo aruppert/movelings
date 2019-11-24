@@ -9,6 +9,7 @@ export default function GlobalStyle() {
         *::before,
         *::after {
           box-sizing: border-box;
+          margin: 0;
         }
 
         body {
